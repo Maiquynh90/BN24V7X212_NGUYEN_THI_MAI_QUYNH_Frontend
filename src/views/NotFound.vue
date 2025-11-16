@@ -1,8 +1,22 @@
 <template>
     <div class="page">
         <p>
-            <i class="fas fa-exclamation-triangle"></i> Oops, không thể tìm thấy trang. Trở về
+            Oops, Không thể tìm thấy trang. Trở về 
             <router-link to="/">Trang chủ.</router-link>
         </p>
     </div>
 </template>
+
+<style scoped>
+.page {
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.page p {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+</style>
